@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Tamil:wght@100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background-color: #c1d3da;
+    font-family: "Noto Sans Tamil", sans-serif;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content, main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2{
+    margin-top: 2rem;
+}
+
+main{
+    width: 25%;
+    height: 60%;
+    border-radius: 5%;
+    background-color: #eee;
+    box-shadow: 1px 5px 8px #2020204b;
+
+    justify-content: center;
+    gap: 10px;
+}
+
+input{
+    font-family: "Noto Sans Tamil", sans-serif;
+    width: 220px;
+    padding: 5px;
+    margin-bottom: 20px;
+    font-size: 1.3rem;
+    outline: 0;
+}
+
+button{
+    padding: .5rem 1.2rem;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #ffffff;
+    background-color: #74b5cf;
+}
+
+.qrcodeContent{
+    padding: 8px;
+    margin-top: .7rem;   
+    background-color: #eee;
+}
+
+input, button, .qrcodeContent{
+    border-radius: 5%;
+    border: 1px solid #74b5cf;
+}
